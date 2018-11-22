@@ -25,7 +25,7 @@ namespace LMSProject.Controllers
         private ApplicationUserManager _userManager;
 
         public AccountController()
-        {
+        { 
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
@@ -99,7 +99,7 @@ namespace LMSProject.Controllers
                 
                         return RedirectToLocalMine(model, returnUrl);
 
-                    
+                   
             }
             else
             {
