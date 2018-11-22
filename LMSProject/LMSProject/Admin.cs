@@ -11,7 +11,7 @@ namespace LMSProject
 {
     using System;
     using System.Collections.Generic;
-    
+
     public partial class Admin
     {
         public string Email { get; set; }
