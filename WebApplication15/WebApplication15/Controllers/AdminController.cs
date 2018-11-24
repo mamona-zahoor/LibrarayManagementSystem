@@ -11,7 +11,7 @@ namespace WebApplication15.Controllers
 {
     public class AdminController : Controller
     {
-        string constring = "Data Source=(local);Initial Catalog=LibraryManagementSystem;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework";
+        string constring = "Data Source=MAMONA\\MAMONA;Initial Catalog=LibraryManagementSystem;Persist Security Info=True;User ID=sa;Password=Mamona123";
 
         // GET: Admin
         public ActionResult Index()
