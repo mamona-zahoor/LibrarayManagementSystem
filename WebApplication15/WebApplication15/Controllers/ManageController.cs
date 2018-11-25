@@ -7,7 +7,6 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WebApplication15.Models;
-
 namespace WebApplication15.Controllers
 {
     [Authorize]
